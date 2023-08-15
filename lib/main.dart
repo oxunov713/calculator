@@ -10,10 +10,10 @@ void main() {
             "Calculator",
             style: TextStyle(
               fontSize: 25,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
-          backgroundColor: Colors.black54,
+          backgroundColor: Colors.white,
           actions: [Icon(Icons.more_vert)],
         ),
         body: Column(
@@ -25,21 +25,21 @@ void main() {
                   children: [
                     Text(
                       "10×4",
-                      style: TextStyle(fontSize: 50, color: Colors.white),
+                      style: TextStyle(fontSize: 50, color: Colors.black),
                     ), Text(
                       "40",
-                      style: TextStyle(fontSize: 30, color: Colors.white),
+                      style: TextStyle(fontSize: 30, color: Colors.black),
                     ),
 
                   ],
                 ),
-                color: Colors.black54,
+                color: Colors.white,
               ),
             ),
             Expanded(
               flex: 4,
               child: Container(
-                color: Colors.black87,
+                color: Colors.black12,
                 child: Column(
                   children: [
                     Expanded(
@@ -53,7 +53,7 @@ void main() {
                                 child: Text(
                                   "AC",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -64,7 +64,7 @@ void main() {
                               child: Center(
                                 child: Icon(
                                   Icons.backspace_outlined,
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   size: 25,
                                 ),
                               ),
@@ -77,7 +77,7 @@ void main() {
                                 child: Text(
                                   "%",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -87,7 +87,7 @@ void main() {
                             child: Container(
                               margin: EdgeInsets.all(15),
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.black12,
                                 shape: BoxShape.circle,
                               ),
                               child: Center(
@@ -113,7 +113,7 @@ void main() {
                                 child: Text(
                                   "7",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -125,7 +125,7 @@ void main() {
                                 child: Text(
                                   "8",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -137,7 +137,7 @@ void main() {
                                 child: Text(
                                   "9",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -147,7 +147,7 @@ void main() {
                             child: Container(
                               margin: EdgeInsets.all(15),
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.black12,
                                 shape: BoxShape.circle,
                               ),
                               child: Center(
@@ -173,7 +173,7 @@ void main() {
                                 child: Text(
                                   "4",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -185,7 +185,7 @@ void main() {
                                 child: Text(
                                   "5",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -197,7 +197,7 @@ void main() {
                                 child: Text(
                                   "6",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -207,7 +207,7 @@ void main() {
                             child: Container(
                               margin: EdgeInsets.all(10),
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.black12,
                                 shape: BoxShape.circle,
                               ),
                               child: Center(
@@ -233,7 +233,7 @@ void main() {
                                 child: Text(
                                   "1",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -245,7 +245,7 @@ void main() {
                                 child: Text(
                                   "2",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -257,7 +257,7 @@ void main() {
                                 child: Text(
                                   "3",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -267,7 +267,7 @@ void main() {
                             child: Container(
                               margin: EdgeInsets.all(10),
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.black12,
                                 shape: BoxShape.circle,
                               ),
                               child: Center(
@@ -291,9 +291,9 @@ void main() {
                             child: Container(
                               child: Center(
                                 child: Text(
-                                  "< >",
+                                  "<...>",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -305,7 +305,7 @@ void main() {
                                 child: Text(
                                   "0",
                                   style: TextStyle(
-                                      fontSize: 25, color: Colors.white),
+                                      fontSize: 25, color: Colors.black),
                                 ),
                               ),
                             ),
@@ -317,7 +317,7 @@ void main() {
                                 child: Text(
                                   "∎",
                                   style: TextStyle(
-                                      fontSize: 10, color: Colors.white),
+                                      fontSize: 10, color: Colors.black),
                                 ),
                               ),
                             ),
